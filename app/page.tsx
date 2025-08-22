@@ -386,64 +386,17 @@ export default function Home() {
                 For unknown reasons, these cytokine cells shut down something critical for allowing iron into the brain. <span className="text-sm text-gray-500">[11] Restless legs. Theoretical roles of inflammatory and immune mechanisms; L. Weinstock, A. Walters. 2011</span>
               </p>
               
-              {/* Biological Diagram Placeholder */}
-              <div className="bg-gray-50 border border-gray-200 rounded-lg p-8 my-8">
-                <div className="text-center mb-4">
-                  <h3 className="text-xl font-bold text-gray-800 mb-2">The Inflammation Loop and Restless Legs</h3>
-                    </div>
-                
-                {/* Diagram Structure */}
-                <div className="relative h-64 bg-white rounded border-2 border-gray-300">
-                  {/* Blood Cell Layer (Top) */}
-                  <div className="absolute top-0 left-0 right-0 h-16 bg-pink-100 border-b-2 border-gray-400">
-                    <div className="text-center text-sm font-semibold text-gray-700 py-1">BLOOD CELL</div>
-                    <div className="flex justify-center space-x-2 mt-1">
-                      <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                      <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                      <div className="w-6 h-4 bg-orange-400 rounded-full flex items-center justify-center">
-                        <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-              </div>
-                            </div>
-                      </div>
-                  
-                  {/* Cellular Barrier Layer (Middle) */}
-                  <div className="absolute top-16 left-0 right-0 h-20 bg-blue-100 border-b-2 border-gray-400">
-                    <div className="text-center text-sm font-semibold text-gray-700 py-1">CELLULAR BARRIER</div>
-                    <div className="flex justify-center space-x-4 mt-2">
-                      <div className="w-4 h-6 bg-orange-400 rounded"></div>
-                      <div className="w-4 h-6 bg-orange-400 rounded"></div>
-                      <div className="w-4 h-6 bg-orange-400 rounded"></div>
-                    </div>
-                    <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-8 h-3 bg-pink-400 rounded-t"></div>
-                  </div>
-                  
-                  {/* Brain Layer (Bottom) */}
-                  <div className="absolute bottom-0 left-0 right-0 h-16 bg-yellow-100">
-                    <div className="text-center text-sm font-semibold text-gray-700 py-1">BRAIN</div>
-                    <div className="flex justify-center space-x-2 mt-1">
-                      <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                      <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                    </div>
-                  </div>
-                  
-                  {/* Legend */}
-                  <div className="absolute bottom-2 right-2 bg-white border border-gray-300 rounded p-2 text-xs">
-                    <div className="flex items-center space-x-1 mb-1">
-                      <div className="w-3 h-4 bg-orange-400 rounded"></div>
-                      <span>Transferrin Receptor</span>
-                    </div>
-                    <div className="flex items-center space-x-1 mb-1">
-                      <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                      <span>Iron</span>
-                    </div>
-                    <div className="flex items-center space-x-1">
-                      <div className="w-4 h-3 bg-orange-400 rounded-full flex items-center justify-center">
-                        <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                      </div>
-                      <span>Transferrin Protein (Bound to iron)</span>
-                    </div>
-                  </div>
-                </div>
+              {/* Substantia Nigra Image */}
+              <div className="text-center my-8">
+                <img
+                  src="/Substantia-Nigra-Zoom-in.jpg"
+                  alt="Substantia Nigra Zoom-in - The Inflammation Loop and Restless Legs"
+                  className="max-w-full h-auto rounded-lg shadow-lg mx-auto"
+                  style={{ maxHeight: '500px' }}
+                />
+                <p className="text-sm text-gray-500 mt-2 italic">
+                  The Inflammation Loop and Restless Legs - Substantia Nigra Zoom-in
+                </p>
               </div>
               
               <p>
@@ -543,12 +496,11 @@ export default function Home() {
             </h2>
 
             <div className="flex justify-center mb-8">
-              <Image
-                src="/bacteria-placeholder.jpg" // Placeholder for the bacteria image
-                alt="Microscopic view of Lactobacillus Plantarum bacteria"
-                width={500}
-                height={350}
+              <img
+                src="/probiotics-300x225.jpg"
+                alt="Lactobacillus Plantarum 299 Probiotic Bacteria"
                 className="rounded-lg shadow-md"
+                style={{ maxWidth: '500px', height: 'auto' }}
               />
             </div>
 
@@ -584,116 +536,15 @@ export default function Home() {
               </h3>
               </div>
 
-            {/* 4-Step Infographic */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-              {/* Step 1 */}
-              <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
-                <div className="text-center mb-4">
-                  <div className="bg-green-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-3">1</div>
-                  <h4 className="text-lg font-bold text-green-800 mb-3">Glycine crosses the blood-brain barrier and binds to toxins</h4>
+            {/* How Does Seratame Work Image */}
+            <div className="flex justify-center mb-8">
+              <img
+                src="/NewHowDoesSeratameWorkNew-590x1024.min_.jpg"
+                alt="How Does Seratame Work - Magnesium Glycinate Process"
+                className="rounded-lg shadow-lg max-w-full h-auto"
+                style={{ maxHeight: '600px' }}
+              />
             </div>
-                
-                <p className="text-gray-700 mb-4">
-                  The glycine (in Magnesium glycinate) crosses the blood-brain barrier and binds to aluminum and other toxins that clog cell receptors to properly flush these toxins from the body.
-                </p>
-                
-                {/* Step 1 Diagram */}
-                <div className="bg-white rounded border p-4">
-                  <div className="text-center text-sm font-semibold text-gray-600 mb-2">Blood vessel</div>
-                  <div className="space-y-2">
-                    <div className="flex justify-between text-xs">
-                      <span>Lumen</span>
-                      <span>Endothelium</span>
-                      <span>Pericyte</span>
-                      <span>Astrocyte</span>
-              </div>
-                    <div className="h-16 bg-gradient-to-r from-red-100 to-blue-100 rounded border-2 border-gray-300 relative">
-                      <div className="absolute top-1 left-2 w-3 h-3 bg-green-500 rounded-full"></div>
-                      <div className="absolute top-1 right-2 w-3 h-3 bg-green-500 rounded-full"></div>
-                      <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-blue-500 rounded-full"></div>
-            </div>
-              </div>
-            </div>
-                      </div>
-
-              {/* Step 2 */}
-              <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
-                <div className="text-center mb-4">
-                  <div className="bg-green-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-3">2</div>
-                  <h4 className="text-lg font-bold text-green-800 mb-3">Glycine nourishes receptor sites</h4>
-                    </div>
-                
-                <p className="text-gray-700 mb-4">
-                  The Glycine can now nourish these receptor site on the cell, regulating electrical impulses.
-                </p>
-                
-                {/* Step 2 Diagram */}
-                <div className="bg-white rounded border p-4">
-                  <div className="text-center text-sm font-semibold text-gray-600 mb-2">Plasma membrane</div>
-                  <div className="h-16 bg-gradient-to-b from-blue-100 to-green-100 rounded border-2 border-gray-300 relative">
-                    <div className="absolute top-2 left-1/4 w-8 h-8 bg-purple-400 rounded border-2 border-purple-600"></div>
-                    <div className="absolute top-2 right-1/4 w-8 h-8 bg-purple-400 rounded border-2 border-purple-600"></div>
-                    <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-xs text-gray-600">Cytoplasm</div>
-                  </div>
-                  <div className="text-center text-xs text-gray-600 mt-1">Receptor tyrosine kinase</div>
-                </div>
-            </div>
-
-              {/* Step 3 */}
-              <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
-                <div className="text-center mb-4">
-                  <div className="bg-green-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-3">3</div>
-                  <h4 className="text-lg font-bold text-green-800 mb-3">Communication and cellular response are restored</h4>
-          </div>
-                
-                <p className="text-gray-700 mb-4">
-                  This restores clear communication between receptors and aids regeneration. Tyrosine residues on the intracellular domain are phosphorylated, triggering a downstream cellular response.
-                </p>
-                
-                {/* Step 3 Diagram */}
-                <div className="bg-white rounded border p-4">
-                  <div className="h-16 bg-gradient-to-b from-blue-100 to-green-100 rounded border-2 border-gray-300 relative">
-                    <div className="absolute top-1 left-1/4 w-8 h-8 bg-purple-400 rounded border-2 border-purple-600"></div>
-                    <div className="absolute top-1 right-1/4 w-8 h-8 bg-purple-400 rounded border-2 border-purple-600"></div>
-                    <div className="absolute top-1 left-1/2 transform -translate-x-1/2 w-3 h-3 bg-yellow-400 rounded-full"></div>
-                    <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 text-xs text-gray-600">Tyrosine residues</div>
-                  </div>
-                  <div className="text-center text-xs text-gray-600 mt-1">Signaling molecule binding</div>
-                </div>
-              </div>
-
-              {/* Step 4 */}
-              <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
-                <div className="text-center mb-4">
-                  <div className="bg-green-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-3">4</div>
-                  <h4 className="text-lg font-bold text-green-800 mb-3">RLS symptoms subside</h4>
-                </div>
-                
-                <p className="text-gray-700 mb-4">
-                  Cellular response. Electrical impulses within the cell are now regular and RLS symptoms subside.
-                </p>
-                
-                {/* Step 4 Diagram */}
-                <div className="bg-white rounded border p-4">
-                  <div className="grid grid-cols-2 gap-2">
-                    <div className="text-center">
-                      <div className="h-12 bg-blue-100 rounded border border-blue-300 relative">
-                        <div className="absolute top-1 left-1 w-2 h-2 bg-green-500 rounded-full"></div>
-                        <div className="absolute top-3 left-1 w-2 h-2 bg-green-500 rounded-full"></div>
-                        <div className="absolute top-5 left-1 w-2 h-2 bg-green-500 rounded-full"></div>
-                      </div>
-                      <div className="text-xs text-gray-600 mt-1">Neuron synapse</div>
-                    </div>
-                    <div className="text-center">
-                      <div className="h-12 bg-green-100 rounded border border-green-300 flex items-center justify-center">
-                        <div className="text-2xl">😌</div>
-                      </div>
-                      <div className="text-xs text-gray-600 mt-1">Relief</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
         </div>
       </section>
 
@@ -1053,38 +904,13 @@ export default function Home() {
           <div className="max-w-4xl mx-auto px-4 text-center">
             {/* eBook Cover */}
             <div className="mb-8">
-              <div className="relative inline-block">
-                {/* 3D eBook Cover */}
-                <div className="relative w-64 h-80 bg-gradient-to-br from-teal-500 to-teal-600 rounded-lg shadow-2xl transform rotate-y-12 perspective-1000">
-                  {/* Book Spine Effect */}
-                  <div className="absolute left-0 top-0 w-2 h-full bg-teal-700 rounded-l-lg"></div>
-                  
-                  {/* Main Cover */}
-                  <div className="absolute inset-0 bg-gradient-to-b from-teal-500 to-teal-600 rounded-lg p-6 flex flex-col justify-between">
-                    {/* Title */}
-                    <div className="text-center">
-                      <h3 className="text-lg font-bold text-yellow-300 mb-2 leading-tight">
-                        HOW TO RELIEVE RESTLESS LEG SYNDROME NATURALLY
-                      </h3>
-                      <div className="bg-red-500 text-white text-xs px-2 py-1 rounded inline-block">
-                        2014 Revised Edition
-            </div>
-            </div>
-                    
-                    {/* Cover Image Placeholder */}
-                    <div className="bg-yellow-200 rounded-lg h-24 flex items-center justify-center">
-                      <div className="text-yellow-600 text-sm">Legs Image</div>
-          </div>
-                    
-                    {/* Author */}
-                    <div className="text-center text-white text-sm">
-                      By the Seratame Team
-                    </div>
-                  </div>
-                  
-                  {/* Book Pages Effect */}
-                  <div className="absolute right-0 top-0 w-1 h-full bg-white opacity-60 rounded-r-lg"></div>
-                </div>
+              <div className="flex justify-center">
+                <img
+                  src="/Restless-Leg-ebook.jpg"
+                  alt="HOW TO RELIEVE RESTLESS LEG SYNDROME NATURALLY - Restless Legs Secrets eBook"
+                  className="rounded-lg shadow-2xl max-w-full h-auto"
+                  style={{ maxHeight: '400px' }}
+                />
               </div>
             </div>
 
@@ -1126,100 +952,15 @@ export default function Home() {
             </p>
             </div>
 
-          {/* Supplement Facts Label */}
-          <div className="max-w-2xl mx-auto">
-            <div className="bg-white border-2 border-gray-300 rounded-lg shadow-lg overflow-hidden">
-              {/* Header */}
-              <div className="bg-green-800 text-white p-4 text-center">
-                <h3 className="text-2xl font-bold">Supplement Facts</h3>
-            </div>
-              
-              {/* Content */}
-              <div className="p-6">
-                {/* Serving Information */}
-                <div className="mb-4">
-                  <p className="text-sm text-gray-700"><strong>Serving Size:</strong> 2 Capsules</p>
-                  <p className="text-sm text-gray-700"><strong>Servings Per Container:</strong> 30</p>
-            </div>
-
-                {/* Nutrient Table */}
-                <div className="mb-4">
-                  <div className="border-b-2 border-gray-300 pb-2 mb-2">
-                    <div className="grid grid-cols-2 text-sm font-bold">
-                      <span>Amount Per Serving</span>
-                      <span>% Daily Value</span>
-            </div>
-            </div>
-                  
-                  <div className="space-y-2 text-sm">
-                    <div className="grid grid-cols-2">
-                      <span><strong>Vitamin D3</strong> (as Cholecalciferol)</span>
-                      <span>7.5 mcg (300 IU) | 38%</span>
-            </div>
-                    <div className="grid grid-cols-2">
-                      <span><strong>Vitamin B6</strong> (as Pyridoxine HCl)</span>
-                      <span>2 mg | 118%</span>
+          {/* Supplement Facts Label Image */}
+          <div className="flex justify-center mb-8">
+            <img
+              src="/Seratame_new_label_Updated_2022_375x519.png"
+              alt="Seratame Supplement Facts Label - Updated 2022"
+              className="rounded-lg shadow-lg max-w-full h-auto"
+              style={{ maxHeight: '600px' }}
+            />
           </div>
-                    <div className="grid grid-cols-2">
-                      <span><strong>Magnesium</strong> (as Magnesium Glycinate)</span>
-                      <span>120 mg | 29%</span>
-                    </div>
-                    <div className="grid grid-cols-2">
-                      <span><strong>Vitamin K-2</strong> (as Menaquinone-7)</span>
-                      <span>120 mcg | *</span>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Proprietary Blend */}
-                <div className="mb-4">
-                  <div className="border-b-2 border-gray-300 pb-2 mb-2">
-                    <div className="grid grid-cols-2 text-sm font-bold">
-                      <span>Amount Per Serving</span>
-                      <span>% Daily Value</span>
-                    </div>
-                  </div>
-                  <div className="grid grid-cols-2 text-sm">
-                    <span><strong>Proprietary Blend</strong></span>
-                    <span>227.5 mg †</span>
-                  </div>
-                  <div className="ml-4 mt-2 space-y-1 text-sm text-gray-700">
-                    <p>• Turmeric Extract 95% Curcuminoids (Root)</p>
-                    <p>• Passionflower Extract 4:1 (Whole Herb)</p>
-                    <p>• Lactobacillus plantarum 1 billion CFU †</p>
-                  </div>
-                </div>
-
-                {/* Other Ingredients */}
-                <div className="mb-4">
-                  <p className="text-sm text-gray-700"><strong>Other Ingredients:</strong></p>
-                  <p className="text-sm text-gray-700 ml-4">Cellulose, Gelatin, Magnesium Stearate, Silicon Dioxide</p>
-                </div>
-
-                {/* Footnotes */}
-                <div className="text-xs text-gray-600 mb-4">
-                  <p>* Daily Value not established</p>
-                  <p>† Daily Value not established</p>
-                </div>
-
-                {/* Bottom Section */}
-                <div className="flex justify-between items-end">
-                  <div className="flex items-center space-x-2">
-                    <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
-                      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                      </svg>
-                    </div>
-                    <span className="text-xs text-green-600 font-medium">Please Recycle</span>
-                  </div>
-                  <div className="text-right">
-                    <div className="w-32 h-16 bg-gray-200 mb-2"></div>
-                    <p className="text-xs text-gray-600">8 51229 00632 4</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </div>
           </div>
         </section>
 
@@ -1507,53 +1248,14 @@ export default function Home() {
             </h2>
             
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-              {/* 3D eBook Cover */}
-          <div className="flex justify-center">
-                <div className="relative transform rotate-y-12 perspective-1000">
-                  {/* Book Cover */}
-                  <div className="w-64 h-80 bg-gradient-to-br from-teal-500 to-teal-600 rounded-lg shadow-2xl relative">
-                    {/* Main Title */}
-                    <div className="absolute top-8 left-1/2 transform -translate-x-1/2 text-center">
-                      <h3 className="text-xl font-bold text-yellow-400 leading-tight px-4">
-                        HOW TO RELIEVE<br />
-                        RESTLESS LEG<br />
-                        SYNDROME<br />
-                        NATURALLY
-                      </h3>
-                    </div>
-                    
-                    {/* Edition Badge */}
-                    <div className="absolute bottom-4 right-4 bg-red-500 text-white text-xs px-2 py-1 rounded">
-                      2014 Revised Edition
-                    </div>
-                    
-                    {/* Legs Image Placeholder */}
-                    <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2">
-                      <div className="w-32 h-24 bg-gray-300 rounded-lg flex items-center justify-center">
-                        <span className="text-gray-600 text-sm">Legs Image</span>
-                      </div>
-                    </div>
-                    
-                    {/* Author Badge */}
-                    <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2">
-                      <div className="bg-yellow-400 border-2 border-teal-600 text-teal-800 text-xs px-3 py-1 rounded-full">
-                        By the Seratame Team
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Book Spine */}
-                  <div className="absolute left-0 top-0 w-4 h-80 bg-teal-700 rounded-l-lg transform -translate-x-1">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="transform -rotate-90 text-white text-xs font-bold text-center">
-                        HOW TO RELIEVE RESTLESS LEG SYNDROME NATURALLY
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Book Pages */}
-                  <div className="absolute left-1 top-0 w-2 h-80 bg-gray-200 rounded-l-sm transform -translate-x-1"></div>
-                </div>
+              {/* eBook Cover */}
+              <div className="flex justify-center">
+                <img
+                  src="/Restless-Leg-ebook.jpg"
+                  alt="HOW TO RELIEVE RESTLESS LEG SYNDROME NATURALLY - Restless Legs Secrets eBook"
+                  className="rounded-lg shadow-2xl max-w-full h-auto"
+                  style={{ maxHeight: '400px' }}
+                />
               </div>
 
               {/* eBook Description & CTA */}
@@ -2053,46 +1755,14 @@ export default function Home() {
             </h3>
             
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-              {/* 3D eBook Cover */}
+              {/* eBook Cover */}
               <div className="flex justify-center">
-                <div className="relative transform rotate-y-12 perspective-1000">
-                  {/* Book Cover */}
-                  <div className="w-64 h-80 bg-gradient-to-br from-teal-500 to-teal-600 rounded-lg shadow-2xl relative">
-                    {/* Main Title */}
-                    <div className="absolute top-8 left-1/2 transform -translate-x-1/2 text-center">
-                      <h4 className="text-xl font-bold text-yellow-400 leading-tight px-4">
-                        HOW TO RELIEVE<br />
-                        RESTLESS LEG<br />
-                        SYNDROME<br />
-                        NATURALLY
-                      </h4>
-                    </div>
-                    
-                    {/* Edition Badge */}
-                    <div className="absolute bottom-4 right-4 bg-red-500 text-white text-xs px-2 py-1 rounded">
-                      2014 Revised Edition
-                    </div>
-                    
-                    {/* Legs Image Placeholder */}
-                    <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2">
-                      <div className="w-32 h-24 bg-gray-300 rounded-lg flex items-center justify-center">
-                        <span className="text-gray-600 text-sm">Legs Image</span>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Book Spine */}
-                  <div className="absolute left-0 top-0 w-4 h-80 bg-teal-700 rounded-l-lg transform -translate-x-1">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="transform -rotate-90 text-white text-xs font-bold text-center">
-                        HOW TO RELIEVE RESTLESS LEG SYNDROME NATURALLY
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Book Pages */}
-                  <div className="absolute left-1 top-0 w-2 h-80 bg-gray-200 rounded-l-sm transform -translate-x-1"></div>
-                </div>
+                <img
+                  src="/Restless-Leg-ebook.jpg"
+                  alt="HOW TO RELIEVE RESTLESS LEG SYNDROME NATURALLY - Restless Legs Secrets eBook"
+                  className="rounded-lg shadow-2xl max-w-full h-auto"
+                  style={{ maxHeight: '400px' }}
+                />
               </div>
 
               {/* eBook Description */}
