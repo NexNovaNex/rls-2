@@ -48,10 +48,11 @@ export const metadata: Metadata = {
     ],
   },
   manifest: "/manifest.json",
-  viewport: {
-    width: 'device-width',
-    initialScale: 1
-  }
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1
 };
 
 export default function RootLayout({
