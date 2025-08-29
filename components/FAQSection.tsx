@@ -9,67 +9,67 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "How much Seratame do I need to take per day?",
-    answer: "Take 2 capsules per day until your symptoms stop or greatly improve. The unique formula is designed so that you see immediate results. You'll get the best results when you take Seratame consistently and long term because it works to replenish the vitamin/mineral/probiotic imbalances within your body."
+    question: "How much Bene do I need to take per day?",
+    answer: "Take 2 capsules per day until your symptoms stop or greatly improve. The unique formula is designed so that you see immediate results. You'll get the best results when you take Bene consistently and long term because it works to replenish the vitamin/mineral/probiotic imbalances within your body."
   },
   {
-    question: "Is Seratame safe?",
-    answer: "Yes, Seratame is made with all-natural ingredients and is generally safe for most adults. However, as with any supplement, we recommend consulting with your healthcare provider before starting, especially if you have underlying health conditions or are taking medications."
+    question: "Is Bene safe?",
+    answer: "Yes, Bene is made with all-natural ingredients and is generally safe for most adults. However, as with any supplement, we recommend consulting with your healthcare provider before starting, especially if you have underlying health conditions or are taking medications."
   },
   {
-    question: "When is the best time to take Seratame?",
-    answer: "Take Seratame with a meal, preferably in the evening or before bedtime, as it's designed to help with sleep and restless leg symptoms that commonly occur at night."
+    question: "When is the best time to take Bene?",
+    answer: "Take Bene with a meal, preferably in the evening or before bedtime, as it's designed to help with sleep and restless leg symptoms that commonly occur at night."
   },
   {
-    question: "What is the Seratame Program?",
-    answer: "The Seratame Program is our monthly delivery service that automatically sends you a fresh bottle of Seratame each month. This ensures you never run out and helps you maintain consistent results. You can cancel anytime with no commitments."
+    question: "What is the Bene Program?",
+    answer: "The Bene Program is our monthly delivery service that automatically sends you a fresh bottle of Bene each month. This ensures you never run out and helps you maintain consistent results. You can cancel anytime with no commitments."
   },
   {
-    question: "What's in Seratame?",
-    answer: "Seratame contains a proprietary blend of natural ingredients including Turmeric Extract (95% Curcuminoids), Passionflower Extract, Lactobacillus plantarum probiotic, along with essential vitamins and minerals like Vitamin D3, Vitamin B6, Magnesium, and Vitamin K-2."
+    question: "What's in Bene?",
+    answer: "Bene contains a proprietary blend of natural ingredients including Turmeric Extract (95% Curcuminoids), Passionflower Extract, Lactobacillus plantarum probiotic, along with essential vitamins and minerals like Vitamin D3, Vitamin B6, Magnesium, and Vitamin K-2."
   },
   {
-    question: "Can I take Seratame with my current medication?",
-    answer: "While Seratame is made with natural ingredients, we always recommend consulting with your healthcare provider before combining any supplement with prescription medications to ensure there are no potential interactions."
+    question: "Can I take Bene with my current medication?",
+    answer: "While Bene is made with natural ingredients, we always recommend consulting with your healthcare provider before combining any supplement with prescription medications to ensure there are no potential interactions."
   },
   {
     question: "Who makes this supplement?",
-    answer: "Seratame is manufactured by Pure Biogenics, LLC, a company dedicated to creating high-quality, natural supplements that address specific health concerns like restless leg syndrome."
+    answer: "Bene is manufactured by Pure Biogenics, LLC, a company dedicated to creating high-quality, natural supplements that address specific health concerns like restless leg syndrome."
   },
   {
     question: "Do you ship to international addresses?",
     answer: "Currently, we ship to the United States and Canada. For international shipping inquiries, please contact our customer service team at info@purebiogenics.com."
   },
   {
-    question: "Do you have allergen information for Seratame?",
-    answer: "Seratame contains no common allergens like gluten, dairy, soy, or nuts. However, if you have specific allergies, please review the ingredient list or contact us for detailed allergen information."
+    question: "Do you have allergen information for Bene?",
+    answer: "Bene contains no common allergens like gluten, dairy, soy, or nuts. However, if you have specific allergies, please review the ingredient list or contact us for detailed allergen information."
   },
   {
     question: "How much does shipping cost?",
-    answer: "Shipping is FREE for all Seratame Club members! For one-time purchases, standard shipping rates apply. We also offer expedited shipping options for faster delivery."
+    answer: "Shipping is FREE for all Bene Club members! For one-time purchases, standard shipping rates apply. We also offer expedited shipping options for faster delivery."
   },
   {
     question: "How do I know this will work for me?",
-    answer: "We offer a 60-day money-back guarantee, so you can try Seratame risk-free. Most customers start seeing results within 2-3 weeks of consistent use. If you're not satisfied, simply return the product for a full refund."
+    answer: "We offer a 60-day money-back guarantee, so you can try Bene risk-free. Most customers start seeing results within 2-3 weeks of consistent use. If you're not satisfied, simply return the product for a full refund."
   },
   {
     question: "Where is it manufactured?",
-    answer: "Seratame is manufactured in the United States in an FDA-registered facility that follows strict quality control standards and Good Manufacturing Practices (GMP)."
+    answer: "Bene is manufactured in the United States in an FDA-registered facility that follows strict quality control standards and Good Manufacturing Practices (GMP)."
   },
   {
-    question: "How do I order Seratame?",
-    answer: "You can order Seratame directly from our website by clicking the 'Add to Cart' or 'Join Now' buttons. Simply follow the checkout process and provide your shipping and payment information."
+    question: "How do I order Bene?",
+    answer: "You can order Bene directly from our website by clicking the 'Add to Cart' or 'Join Now' buttons. Simply follow the checkout process and provide your shipping and payment information."
   },
   {
     question: "How do I cancel?",
-    answer: "You can cancel your Seratame Club membership at any time by emailing info@purebiogenics.com or calling our hotline at (877) 269-2694. There are no cancellation fees or commitments."
+    answer: "You can cancel your Bene Club membership at any time by emailing info@purebiogenics.com or calling our hotline at (877) 269-2694. There are no cancellation fees or commitments."
   },
   {
     question: "How long will it take to see results?",
-    answer: "Most people start to see results in just 2-3 weeks of regular use, depending on the severity of their deficiency. For best results, take Seratame consistently as directed."
+    answer: "Most people start to see results in just 2-3 weeks of regular use, depending on the severity of their deficiency. For best results, take Bene consistently as directed."
   },
   {
-    question: "Can I take Seratame during pregnancy?",
+    question: "Can I take Bene during pregnancy?",
     answer: "We recommend consulting with your healthcare provider before taking any supplement during pregnancy or while breastfeeding. Your doctor can best advise you on what's safe for you and your baby."
   },
   {
@@ -101,10 +101,8 @@ export default function FAQSection() {
         </h2>
 
         <p className="text-gray-600 text-center mb-8">
-          Can't find the answer to your question below? You can contact us toll free at{' '}
-          <a href="tel:1-877-269-2694" className="text-blue-600 hover:underline">1-877-269-2694</a>{' '}
-          or by email at{' '}
-          <a href="mailto:info@purebiogenics.com" className="text-blue-600 hover:underline">info@purebiogenics.com</a>
+          Can't find the answer to your question below? You can contact us at{' '}
+          <a href="info@benebalance.com" className="text-blue-600 hover:underline">info@benebalance.com</a>{' '}
         </p>
 
         <div className="space-y-0">
